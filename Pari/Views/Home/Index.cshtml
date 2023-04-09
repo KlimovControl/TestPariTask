@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var textGoButton = "Перейти";
+}
+
+<div class="row m-4">
+    <div class="col-sm-6">
+        <div class="card m-2">
+            <div class="card-body">
+                <h5 class="card-title">Игроки</h5>
+                <p class="card-text">Список игроков</p>
+                <a class="btn btn-primary" asp-controller="Player" asp-action="Index"> @textGoButton </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card m-2">
+            <div class="card-body">
+                <h5 class="card-title">Транзакции</h5>
+                <p class="card-text">Список транзакций</p>
+                <a class="btn btn-primary" asp-controller="Transaction" asp-action="Index"> @textGoButton </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card m-2">
+            <div class="card-body">
+                <h5 class="card-title">Ставки</h5>
+                <p class="card-text">Список ставок</p>
+                <a class="btn btn-primary" asp-controller="Bet" asp-action="Index"> @textGoButton </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card m-2">
+            <div class="card-body">
+                <h5 class="card-title">Отчет по игрокам</h5>
+                <p class="card-text">Отчет с фльтрацей игроков</p>
+                <a class="btn btn-primary" asp-controller="PlayersReport" asp-action="Index"> @textGoButton </a>
+            </div>
+        </div>
+    </div>
+</div>

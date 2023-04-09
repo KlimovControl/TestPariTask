@@ -1,0 +1,73 @@
+@model PlayersReportViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Отчет по игрокам</h1>
+
+<form class="form-row" method="get">
+    <div class="form-group">
+        
+        <label class="control-label"> Статус </label>
+        @Html.DropDownList("status", Model.PlayerStatuses, new {@class = "dropdown"})
+
+        <label class="control-label"> Ставка выше внесения </label>
+        @Html.CheckBox("isBetHigherChecked", Model.isBetHigher)
+        
+        <button type="submit" class="btn btn-primary">Сформировать</button>
+    </div>
+</form>
+
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            ФИО
+        </th>
+        <th>
+            Баланс
+        </th>
+        <th>
+            Дата регистрации
+        </th>
+        <th>
+            Статус
+        </th>
+        <th>
+            Сумма внесений
+        </th>
+        <th>
+            Сумма ставок
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.PlayersReportModels) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AbbreviatedFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegistrationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status.StatusName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepositAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BetAmount)
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>
