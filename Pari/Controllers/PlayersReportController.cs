@@ -18,53 +18,38 @@ namespace Pari.Controllers;
         public async Task<IActionResult> Index(byte? status, bool isBetHigherChecked)
         {
             var players = _context.Players
-                .AsNoTracking()
-                .Include(p => p.PlayerStatus)
-                .Include(p=> p.Bets)
-                .Include(p=> p.Transactions!
-                    .Where(tt => tt.TransactionType==TransactionType.Deposit))
+                .Include(p => p.Bets)
+                .Include(p=>p.Transactions)
+                .Select(p=>
+            new PlayersReportModel
+                {Id = p.Id, 
+                    AbbreviatedFullName = p.AbbriviatedFullName, 
+                    Balance = p.Balance, 
+                    Status = p.PlayerStatus, 
+                    RegistrationDate = p.RegistrationDate, 
+                    BetAmount = (decimal)p.Bets!.Sum(ba => (float)ba.BetAmount),
+                    DepositAmount = (decimal)p.Transactions!
+                        .Where(ta=>ta.TransactionType == TransactionType.Deposit)
+                        .Sum(ta => (float)ta.TransactionAmount)
+                })
                 .AsQueryable();
             
             List<PlayerStatus> statuses = await _context.PlayerStatus.AsNoTracking().ToListAsync();
             statuses.Insert(0, new PlayerStatus {StatusName = "Все", Id = 0});
             
-            
             if (status != null && status!=0)
             {
-                players = players.Where(p => p.PlayerStatus!.Id == status);
+                players = players.Where(p => p.Status!.Id == status);
             }
-            var resultPlayersList = new List<PlayersReportModel>();
-            
-            foreach (var player in players)
+
+            if (isBetHigherChecked)
             {
-                var playerTransactionsSum = player.Transactions!.Sum(ta => ta.TransactionAmount);
-                var playerBetsSum = player.Bets!.Sum(ba => ba.BetAmount);
-                var isBetBiggerThanTransaction = playerBetsSum > playerTransactionsSum;
-                
-                switch (isBetHigherChecked)
-                {
-                    case false:
-                    case true when isBetBiggerThanTransaction:
-                    {
-                        var playerToList = new PlayersReportModel
-                        {
-                            Id = player.Id,
-                            AbbreviatedFullName = player.AbbriviatedFullName,
-                            Balance = player.Balance,
-                            RegistrationDate = player.RegistrationDate,
-                            Status = player.PlayerStatus,
-                            DepositAmount = playerTransactionsSum,
-                            BetAmount = playerBetsSum
-                        };
-                        resultPlayersList.Add(playerToList);
-                        break;
-                    }
-                }
+                players = players.Where(p => p.BetAmount > p.DepositAmount);
             }
-            
+
             var resultModel = new PlayersReportViewModel
             {
-                PlayersReportModels = resultPlayersList,
+                PlayersReportModels = players,
                 isBetHigher = isBetHigherChecked,
                 PlayerStatuses = new SelectList(statuses, "Id", "StatusName")
             };

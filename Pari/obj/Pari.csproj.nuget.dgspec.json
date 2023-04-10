@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/denisklimov/RiderProjects/Pari/Pari/Pari.csproj": {}
+    "/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Pari.csproj": {}
   },
   "projects": {
-    "/Users/denisklimov/RiderProjects/Pari/Pari/Pari.csproj": {
+    "/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Pari.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/denisklimov/RiderProjects/Pari/Pari/Pari.csproj",
+        "projectUniqueName": "/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Pari.csproj",
         "projectName": "Pari",
-        "projectPath": "/Users/denisklimov/RiderProjects/Pari/Pari/Pari.csproj",
+        "projectPath": "/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Pari.csproj",
         "packagesPath": "/Users/denisklimov/.nuget/packages/",
-        "outputPath": "/Users/denisklimov/RiderProjects/Pari/Pari/obj/",
+        "outputPath": "/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/denisklimov/.nuget/NuGet/NuGet.Config"
