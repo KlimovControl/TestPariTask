@@ -8,101 +8,101 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pari
 build_property.RootNamespace = Pari
-build_property.ProjectDir = /Users/denisklimov/RiderProjects/Pari/Pari/
+build_property.ProjectDir = /Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/denisklimov/RiderProjects/Pari/Pari
+build_property.MSBuildProjectDirectory = /Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Bet/Create.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Bet/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmV0L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Bet/Delete.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Bet/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmV0L0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Bet/Details.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Bet/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmV0L0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Bet/Edit.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Bet/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmV0L0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Bet/Index.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Bet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmV0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Home/Index.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Home/Privacy.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Player/Create.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Player/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Player/Delete.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Player/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Player/Details.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Player/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Player/Edit.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Player/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Player/Index.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Player/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/PlayersReport/Index.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/PlayersReport/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyc1JlcG9ydC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Shared/Error.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Transaction/Create.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Transaction/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNhY3Rpb24vQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Transaction/Delete.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Transaction/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNhY3Rpb24vRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Transaction/Details.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Transaction/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNhY3Rpb24vRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Transaction/Edit.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Transaction/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNhY3Rpb24vRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Transaction/Index.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Transaction/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNhY3Rpb24vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/_ViewImports.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/_ViewStart.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/denisklimov/RiderProjects/Pari/Pari/Views/Shared/_Layout.cshtml]
+[/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wgytwy3qc2

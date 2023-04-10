@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j1ynO+b7W09pFaYFfMhgjJ18tG6SH+RB1hC88/EkKcPWqYONj2p78wh3y+7UYssynzngAujOr9VZO5rJIhW2xw==",
+  "dgSpecHash": "d6XJmU9zd1iRDMLiN8tYZdhKvb1EP5WsD5f/jK1pKhki1HhdWKIfczDIGu084EYktswrKsrBJSb8+2qtwL8ZUA==",
   "success": true,
-  "projectFilePath": "/Users/denisklimov/RiderProjects/Pari/Pari/Pari.csproj",
+  "projectFilePath": "/Users/denisklimov/RiderProjects/TakefromGit/TestPariTask/Pari/Pari.csproj",
   "expectedPackageFiles": [
     "/Users/denisklimov/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/denisklimov/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
